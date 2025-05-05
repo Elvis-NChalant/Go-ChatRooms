@@ -36,5 +36,5 @@ A simple TCP-based chat application written in Go, supporting multiple rooms, us
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/go-tcp-chat.git
-cd go-tcp-chat
+gh repo clone Elvis-NChalant/Go-ChatRooms
+cd Go-ChatRooms
