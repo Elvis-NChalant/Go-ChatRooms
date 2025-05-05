@@ -21,7 +21,7 @@ func gracefulExit(conn net.Conn, username string) {
 }
 
 func main() {
-    serverAddr := "13.203.216.249:8080"
+    serverAddr := os.Getenv("SERVER_ADDR")
     conn, err := net.Dial("tcp", serverAddr)
     
     if err != nil {
