@@ -25,8 +25,9 @@ A simple TCP-based chat application written in Go, supporting multiple rooms, us
 - **Client:** Connects to the server, sends/receives messages, and displays chat in the terminal.
 
 
-
-![Logo](https://github.com/Elvis-NChalant/Go-ChatRooms/blob/main/chatarch.png)
+<p align="center">
+  <img src="https://github.com/Elvis-NChalant/Go-ChatRooms/blob/main/chatarch.png" alt="Logo">
+</p>
 
 
 
