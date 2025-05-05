@@ -15,6 +15,9 @@ A simple TCP-based chat application written in Go, supporting multiple rooms, us
 - **Server:** Listens for client connections, handles room logic, and broadcasts messages.
 - **Client:** Connects to the server, sends/receives messages, and displays chat in the terminal.
 
+![Logo](https://github.com/Elvis-NChalant/Go-ChatRooms/blob/main/chatarch.png)
+
+
 
 ## Setup
 

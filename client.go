@@ -10,7 +10,7 @@ import (
 )
 
 func generateRoomID() string {
-    //rand.Seed(time.Now().UnixNano())
+    
     roomID := fmt.Sprintf("%d", rand.Intn(1000000)) // Generate a random room ID
     return roomID
 }
