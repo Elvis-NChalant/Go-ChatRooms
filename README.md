@@ -2,6 +2,15 @@
 
 A simple TCP-based chat application written in Go, supporting multiple rooms, user color-coding, and client-server architecture. Designed for learning and experimenting with socket programming, concurrency, and basic authentication concepts.
 
+## Idea
+
+- Uses persistent TCP to connect with the server
+- Server keeps track of all the connections using a hashmap
+- When a new client joins he is prompted to either create or join a room
+- Every room id is mapped to a connection (user connection) in the server using the hashmap
+- Whenever a client sends a message in the room, the server checks the room id of the client and looks at the hashmap to check all other members present in the same room
+- The server sends the message received by the client to all the members mapped by the same room id except the sender
+
 ## Features
 
 - Room-based chat support
